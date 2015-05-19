@@ -1,0 +1,30 @@
+-MARK LEVI-
+
+To Run the Application:
+
+1. From the Terminal, go into the root directory
+2. Copy and Paste the Following Code:
+
+$ ruby mars_rover_app.rb input.txt
+
+Check the "output.txt" file to view the new position of the rovers.
+
+
+Assumptions:
+
+- first line of input is the upper-right coordinates of the plateau
+
+- rest of input is information pertaining to the rovers.
+
+- each rover has two lines of input: (1) rover's position (2) instructions telling the rover how to explore the plateau.
+
+- if a rover is at the edge of the plateau, the rover will simply ignore any command that will cause it to go out of bounds.
+
+- plateau is rectangular with coordatinats (top, left, bottom, right
+
+-a scaleable application would need to be able to have multiple rovers instantiated and commanded
+
+- each rover executes the commands only after its predecessor's have completed their exploration.
+
+-input file name will be passed as command-line arguement
+
